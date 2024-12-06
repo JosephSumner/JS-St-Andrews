@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>A.A Home Improvement</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+
+	<body>
+
+		<!--
+			The header which stays locked at the top of the page
+			Contains both the logo which if pressed will return you to the main page and the navigation menu
+		-->
+		<header class="header" id="myHeader">
+			<a href="index.html">
+				<img id="logo" class="logo" src="whiteLogo.png" alt="" />
+			</a>
+			<button class="hamburger">
+				<div class="bar"></div>
+			</button>
+		</header>
+
+		<!--
+			The mobile which slides out from the right of the screes when the 3 lines are pressed
+			4 buttons will then be displayed: "Home", "Servies", "Projects", "Contact" and if these are pressed they will take you to the relevant page or location
+		-->
+		<nav class="mobile-nav">
+			<a href="index.html">Home</a>
+			<a href="index.html" onclick="scrollToMyServices()">Services</a>
+			<a href="projects.html">Projects</a>
+			<a href="index.html">Contact</a>
+		</nav>
+
+		<!--
+			The various different projects done my Andre
+		-->
+		<div class="projects-wrapper" id="first-project">
+			<h1>MY PROJECTS</h1>
+
+			<div class="projects-box">
+				<img src="andre.png" alt="" />
+				<div>
+					<h2>PROJECT NAME</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+						ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+						accumsan lacus vel facilisis.
+					</p>
+					<br />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+						ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+						accumsan lacus vel facilisis.
+					</p>
+					<br />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+						ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+						accumsan lacus vel facilisis.
+					</p>
+					<br />
+				</div>
+			</div>
+		</div>
+		<div class="purple-container" id="slide-in">
+			<div class="projects-wrapper">
+				<div class="projects-box">
+					<div>
+						<h2>PROJECT NAME</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+							ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+							accumsan lacus vel facilisis.
+						</p>
+						<br />
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+							ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+							accumsan lacus vel facilisis.
+						</p>
+						<br />
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+							ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+							accumsan lacus vel facilisis.
+						</p>
+						<br />
+					</div>
+					<img src="andre.png" alt="" />
+				</div>
+			</div>
+		</div>
+		<div class="projects-wrapper" id="slide-in">
+			<div class="projects-box">
+				<img src="andre.png" alt="" />
+
+				<div>
+					<h2>PROJECT NAME</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+						ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+						accumsan lacus vel facilisis.
+					</p>
+					<br />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+						ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+						accumsan lacus vel facilisis.
+					</p>
+					<br />
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+						ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+						accumsan lacus vel facilisis.
+					</p>
+					<br />
+				</div>
+			</div>
+		</div>
+		<div class="purple-container" id="slide-in">
+			<div class="projects-wrapper">
+				<div class="projects-box">
+					<div>
+						<h2>PROJECT NAME</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+							ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+							accumsan lacus vel facilisis.
+						</p>
+						<br />
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+							ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+							accumsan lacus vel facilisis.
+						</p>
+						<br />
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+							ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+							accumsan lacus vel facilisis.
+						</p>
+						<br />
+					</div>
+					<img src="andre.png" alt="" />
+				</div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
