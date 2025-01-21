@@ -11,7 +11,6 @@ import {
 	StatusBar, 
 	View, 
 	Text, 
-	// A button-like component that responds to touches
 	TouchableOpacity, 
 } from 'react-native';
 
