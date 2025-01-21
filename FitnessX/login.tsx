@@ -12,6 +12,7 @@ import {
 	View, 
 	Text, 
 	TouchableOpacity, 
+	TextInput,
 } from 'react-native';
 
 import { ALERT_TYPE, Dialog, AlertNotificationRoot, Toast } from 'react-native-alert-notification';
