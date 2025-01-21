@@ -16,7 +16,7 @@ import {
 	TextInput,
 } from 'react-native';
 
-import styles from '../styles/menuStyles'; // Adjust the path as necessary
+import styles from '../styles/menuStyles'; 
 
 import CircularProgress from 'react-native-circular-progress-indicator';
 
