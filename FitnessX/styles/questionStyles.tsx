@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 		alignItems: 'center',
 		justifyContent: 'flex-start',
-        paddingTop: 30, // Push content down slightly for centering effect
+        paddingTop: 30,
 	},
     bottomContainer: {
 		position: 'absolute',
@@ -22,15 +22,15 @@ const styles = StyleSheet.create({
 	mainText: {
 		fontSize: 45,
 		fontFamily: 'Nexa-Bold',
-		width: '100%', // Make sure the text spans the full container width
+		width: '100%',
 		textAlign: 'center',
 	},
     buttonsContainer: {
-		flex: 1, // Add this to make it take remaining space
-		justifyContent: 'center', // Add this to center buttons vertically
-		alignItems: 'center', // Add this to center buttons horizontally
+		flex: 1,
+		justifyContent: 'center', 
+		alignItems: 'center',
 		gap: 30,
-		marginTop: -170, // This helps offset the paddingTop from questionContainer
+		marginTop: -170, 
     },
 	button: {
 		backgroundColor: '#dfdfdf',
@@ -61,14 +61,14 @@ const styles = StyleSheet.create({
 		color: '#6a6a6a',
 		fontSize: 25,
 		textAlign: 'center',
-		width: '100%', // Make sure the text spans the full container width
+		width: '100%', 
 	},
     progressBarContainer: {
 		width: 350,
 		height: 10,
 		borderRadius: 10,
-        overflow: 'hidden', // This ensures the red bar doesn't exceed the container
-		position: 'relative', // This allows absolute positioning of the indicator
+        overflow: 'hidden',
+		position: 'relative', 
     },
     progressBarBackground: {
         backgroundColor: '#dfdfdf',
@@ -78,7 +78,7 @@ const styles = StyleSheet.create({
     },
     progressBarIndicator: {
         backgroundColor: '#ff0000',
-        width: '0%', // This makes it fill 1/10 of the bar
+        width: '0%', 
         height: '100%',
         position: 'absolute',
     },
