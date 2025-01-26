@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
 		height: 50,
 		borderRadius: 25,
 		paddingHorizontal: 15,
-		justifyContent: 'center', // Centers items vertically in the container
+		justifyContent: 'center',
 	},
 	passwordContainer: {
 		backgroundColor: '#dfdfdf',
@@ -39,9 +39,9 @@ const styles = StyleSheet.create({
 		borderRadius: 25,
 		flexDirection: 'row',
 		alignItems: 'center',
-		justifyContent: 'space-between', // Pushes items to edges
-		paddingLeft: 15, // Left padding for password input
-		paddingRight: 15, // Right padding for FORGOT text
+		justifyContent: 'space-between', 
+		paddingLeft: 15,
+		paddingRight: 15,
 	},
 	forgotText: {
 		fontSize: 12,
