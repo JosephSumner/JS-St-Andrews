@@ -58,22 +58,22 @@ const styles = StyleSheet.create({
         justifyContent: 'flex-end',
         elevation: 5,
         shadowColor: '#ff0000',
-        overflow: 'hidden', // This ensures the image respects borderRadius
+        overflow: 'hidden',
     },
     workoutImage: {
-        borderRadius: 20, // This ensures the image is also rounded
+        borderRadius: 20, 
     },
     workoutOverlay: {
         flex: 1,
-        backgroundColor: 'rgba(0, 0, 0, 0.4)', // Darker overlay across the entire image
-        justifyContent: 'flex-end', // Keeps the text at the bottom
+        backgroundColor: 'rgba(0, 0, 0, 0.4)', 
+        justifyContent: 'flex-end', 
         padding: 15,
     },
     workoutContent: {
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-        width: '100%',  // Add this to make it full width
+        width: '100%', 
     },
     workoutText: {
         fontFamily: 'Nexa-Bold',
@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
         marginBottom: 7,
     },
     trackerBox:{
-        flexDirection: 'row', // Arrange child elements in a row
+        flexDirection: 'row', 
         width: '100%',
         height: 250,
         borderRadius: 25,
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
     calorieContainer: {
-        flex: 1, // Equally divide the two parts
+        flex: 1,
     },
     macroText: {
         color: 'white',
@@ -149,8 +149,8 @@ const styles = StyleSheet.create({
 		width: '100%',
 		height: 10,
 		borderRadius: 10,
-        overflow: 'hidden', // This ensures the red bar doesn't exceed the container
-		position: 'relative', // This allows absolute positioning of the indicator
+        overflow: 'hidden', 
+		position: 'relative', 
     },
     progressBarBackground: {
         backgroundColor: 'white',
@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
     },
     progressBarIndicator: {
         backgroundColor: '#ff0000',
-        width: '0%', // This makes it fill 1/10 of the bar
+        width: '0%', 
         height: '100%',
         position: 'absolute',
         borderBottomRightRadius: 10,
@@ -190,9 +190,9 @@ const styles = StyleSheet.create({
         right: 0,
         bottom: 0,
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
-        zIndex: 1000, // Ensure overlay is on top
-        justifyContent: 'center', // Center vertically
-        alignItems: 'center', // Center horizontally
+        zIndex: 1000, 
+        justifyContent: 'center', 
+        alignItems: 'center', 
     },
     modalBox: {
         width: 300, 
@@ -200,8 +200,8 @@ const styles = StyleSheet.create({
         backgroundColor: 'white', 
         borderRadius: 25,
         gap: 20,
-        justifyContent: 'center', // Center vertically
-        alignItems: 'center', // Center horizontally
+        justifyContent: 'center', 
+        alignItems: 'center', 
         elevation: 20,
         shadowColor: '#171717',
     },
@@ -224,7 +224,7 @@ const styles = StyleSheet.create({
         height: 40,
         backgroundColor: 'red',
         borderRadius: 20,
-        justifyContent: 'center', // Center vertically
+        justifyContent: 'center',
     },
     submitText: {
         color: 'white',
